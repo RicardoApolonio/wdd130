@@ -1,12 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 :root {
     --primary-color: #1d5d91;
-    --secondary-color: #ffffff;
     --accent1-color: #16324f;
-    --accent2-color: #f4a261;
-    --heading-font: "Roboto", sans-serif;
-    --body-font: "Roboto", sans-serif;
+    --heading-font: Arial, sans-serif;
+    --body-font: Arial, sans-serif;
 }
 
 * {
