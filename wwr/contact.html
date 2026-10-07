@@ -17,7 +17,7 @@
         <img src="images/logo.jpg" alt="White Water Rafting Logo">
 
         <nav>
-            <a href="../index.html">Home</a>
+            <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
             <a href="trips.html">Trips</a>
             <a href="contact.html">Contact Us</a>
@@ -27,7 +27,7 @@
     <main>
 
         <section class="contact-info">
-            <h1>Contact Us</h1>
+            <h1>Contact Us | White Water Rafting</h1>
 
             <p>
                 We would love to hear from you! Contact us for questions,
@@ -88,18 +88,18 @@
                 <fieldset>
                     <legend>Purpose of Message</legend>
 
-                    <label>
-                        <input type="radio" name="purpose" value="general" required>
+                    <label for="general">
+                        <input type="radio" id="general" name="purpose" value="general" required>
                         General Inquiry
                     </label>
 
-                    <label>
-                        <input type="radio" name="purpose" value="reservation">
+                    <label for="reservation">
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
                         Reservation Question
                     </label>
 
-                    <label>
-                        <input type="radio" name="purpose" value="suggestion">
+                    <label for="suggestion">
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
                         Website Suggestion
                     </label>
                 </fieldset>
@@ -107,8 +107,8 @@
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" rows="6" required></textarea>
 
-                <label>
-                    <input type="checkbox" name="newsletter">
+                <label for="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter">
                     Please subscribe me to the monthly newsletter
                 </label>
 
